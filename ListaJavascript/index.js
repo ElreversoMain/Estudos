@@ -19,3 +19,35 @@ const CalcularImc=()=>{
     console.log(Resultado)
 }
 CalcularImc()
+
+const Perguntas=()=>{
+    const SeuNome=prompt("Digite seu nome")
+    const Idade=prompt("digite sua idade")
+    const Email=prompt("digite seu email")
+    console.log(`Meu nome é ${SeuNome}, tenho ${Idade} anos, e o meu email é ${Email}`)
+}
+Perguntas()
+const CoresFavoritas=()=>{
+    const Cor1=prompt("Digite uma cor")
+    const Cor2=prompt("Digite outra cor")
+    const Cor3=prompt("Digite outra cor")
+    const resultado=[Cor1,Cor2,Cor3]
+    console.log(resultado)
+}
+CoresFavoritas()
+
+const LetraMaiuscula=()=>{
+    const Digitar=prompt("Digite algo")
+    const FraseMaiuscula=Digitar.toUpperCase()
+    console.log(FraseMaiuscula)
+}
+LetraMaiuscula()
+
+const Espetaculo=()=>{
+    const Pessoas=prompt("Digite quantidade de pessoas")
+    const Conta=Pessoas*50-5000
+    console.log(Conta)
+    const Comprar=Pessoas*50
+    console.log(Comprar)
+}
+Espetaculo()
