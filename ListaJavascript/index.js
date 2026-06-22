@@ -1,4 +1,5 @@
-const CalcularArea=(Altura,Largura)=>{
+
+CalcularArea=(Altura,Largura)=>{
     const area=Altura*Largura
     console.log(area)
 }
@@ -44,10 +45,21 @@ const LetraMaiuscula=()=>{
 LetraMaiuscula()
 
 const Espetaculo=()=>{
-    const Pessoas=prompt("Digite quantidade de pessoas")
-    const Conta=Pessoas*50-5000
-    console.log(Conta)
-    const Comprar=Pessoas*50
-    console.log(Comprar)
+    const Custo=5500
+    const valorIngresso=50
+    const Calculo=Custo/valorIngresso
+    console.log(Calculo)
 }
 Espetaculo()
+
+const Retorna=()=>{
+    const umArray=[1,2,3]
+    console.log(umArray[0])
+}
+Retorna()
+
+const UltimoRetorna=()=>{
+    const RetornaUltimo=[1,2,3]
+    console.log(RetornaUltimo[2])
+}
+UltimoRetorna()
