@@ -17,3 +17,16 @@ if(Pergunta="M"){
     console.log("Boa noite")
 
 }
+
+let Perguntas=prompt(" Digite V ou M ou N")
+switch(Perguntas){
+   case "V":
+        console.log("Boa tarde")
+    break
+case "M":
+    console.log("Bom dia")
+    break
+case "N":
+    console.log("Boa noite")
+    break
+}
